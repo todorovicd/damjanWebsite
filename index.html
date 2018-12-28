@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="stylesheets/styles.min.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+    <!-- meta tags -->
+    <title>Damjan Todorovic</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+    <!-- favicons -->
+    <link rel="shortcut icon" type="image/png" href="images/faviconResize.png"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="scripts/scripts.min.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <div class="overlay-container" id="overlay">
+      <div class="overlay" onclick="closeModal()"></div>
+      <div class="contact-card">
+        <div class="close" onclick="closeModal()">X</div>
+        <div class='info-box' id='info-box-1'></div>
+        <div class='info-box' id='info-box-2'></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="nav">
+        <div class="logo" onclick="scrollToSection('section-1', 0)"></div>
+        <div class="nav-bar">
+          <span id="nav-2" class="nav-item section-2" onclick="scrollToSection('section-2', 'nav-2')">about</span>
+          <span id="nav-3" class="nav-item section-3" onclick="scrollToSection('section-3', 'nav-3')">services</span>
+          <span id="nav-4" class="nav-item section-4" onclick="scrollToSection('section-4', 'nav-4')">portfolio</span>
+          <span id="nav-5" class="nav-item section-5" onclick="scrollToSection('section-5', 'nav-5')">contact</span>
+        </div>
+      </div>
+      <div class="section section-1" id="section-1">
+        <div class="noise-overlay"></div>
+        <div class="animation-container">
+          <div id="animated-header-container" class="header animated-header-container">
+            <div class="header-wrapper entering">
+            </div>
+          </div>
+          <div class="main-header">Damjan <span class="main-name">Todorovic</span></div>
+          <div class="sub-header faded">Software Developer</div>
+        </div>
+        <div class="button page-link" onclick="scrollToSection('section-2')">Find out more &nbsp &nbsp<i class="fa fa-arrow-right"></i></div>
+      </div>
+      <div class="section section-2" id="section-2">
+        <div class="sub-section">
+          <div class="section-body">
+            <div class="sub-header">
+              <span class="border">About Me</span>
+            </div>
+            <div class="body-text">
+              <span>Hello, I'm a mission-driven Full Stack Developer with a passion for writing clean, elegant and efficient code.</span>
+              <span>In my professional experience I have designed beautiful and functionl UI/UX as well as a number of Web/Desktop Apps.</span>
+            </div>
+          </div>
+          <div class="section-image">
+            <div class="image-1"></div>
+          </div>
+        </div>
+        <div class="sub-section">
+          <div class="section-body">
+            <div class="sub-header">
+              <span class="border">Front-End</span>
+            </div>
+            <div class="body-text">
+                Technologies I have used in the past and am comfortable working with.
+              <div class="row">
+                <div class="column">
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/html5.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp HTML5 </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/javascript.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp JavaScript </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/d3.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp D3.js </span>
+                </div>
+              </div>
+              <div class="column">
+              <div>
+                <span style="font-size: 22px;"><img src="../images2/css3.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp CSS3 </span>
+              </div>
+              <div>
+                <span style="font-size: 22px;"><img src="../images2/jquery.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp jQuery </span>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-image">
+            <div class="image-2"></div>
+          </div>
+        </div>
+        <div class="sub-section">
+          <div class="section-body">
+            <div class="sub-header">
+              <span class="border">Back-End</span>
+            </div>
+            <div class="body-text">
+                Very familiar with behind the curtain, server-side operations!
+              <div class="row">
+                <div class="column">
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/csharp.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp C# </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/pythn.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp Python </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/vb.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp Visual Basic </span>
+                </div>
+              </div>
+              <div class="column">
+              <div>
+                <span style="font-size: 22px;"><img src="../images2/php.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp PHP </span>
+              </div>
+              <div>
+                <span style="font-size: 22px;"><img src="../images2/mySql.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp MySQL </span>
+              </div>
+              <div>
+                <span style="font-size: 22px;"><img src="../images2/msSql.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp MS SQL </span>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-image">
+            <div class="image-3"></div>
+          </div>
+        </div>
+        <div class="sub-section">
+          <div class="section-body">
+            <div class="sub-header">
+              <span class="border">Frameworks & CMS</span>
+            </div>
+            <div class="body-text">
+                Some of the frameworks I used so far. Always ready to learn new things!
+              <div class="row">
+                <div class="column">
+                  <div>
+                    <span style="font-size: 22px;"><img src="../images2/react.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp React </span>
+                  </div>
+                  <div>
+                    <span style="font-size: 22px;"><img src="../images2/nodejs.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp Node.js </span>
+                  </div>
+                  <div>
+                    <span style="font-size: 22px;"><img src="../images2/bootstrap.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp Bootstrap </span>
+                  </div>
+
+                </div>
+              <div class="column">
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/laravel.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp Laravel </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/asp.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp ASP.net </span>
+                </div>
+                <div>
+                  <span style="font-size: 22px;"><img src="../images2/wordpress.png" alt="Italian Trulli" style="width:55px;height:55px;padding-top:30px;""">&nbsp &nbsp &nbsp WordPress </span>
+                </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-image">
+            <div class="image-4"></div>
+          </div>
+        </div>
+      <div class="section section-3" id="section-3">
+        <div class="sub-header">
+          <span>What I can and love to do</span>
+        </div>
+        <div>
+          <div class="sub-section">
+            <div class="icon">
+              <span class="icon-1"></span>
+            </div>
+            <div class="section-text">
+              <div class="section-header">Every Second Counts</div>
+              <div class="section-body body-text">
+                <span>Loading time is a major contributing factor to page abandonment.</span>
+                <span>A fast site is a good user experience (UX), and a satisfying UX leads to higher conversions.</span>
+              </div>
+            </div>
+            <div class="section-bullets">
+              <span class="bullet">PRIMARY</span>
+              <span class="bullet">FAST LOAD TIMES</span>
+              <span class="bullet">LAG FREE INTERACTION</span>
+              <span class="bullet">RANKING</span>
+            </div>
+          </div>
+          <div class="sub-section">
+            <div class="icon">
+              <span class="icon-2"></span>
+            </div>
+            <div class="section-text">
+              <div class="section-header">Responsive Web Design</div>
+              <div class="section-body body-text">
+                <span>In today’s day and age most people turn to their mobile phones when looking for a business or service.</span>
+                <span>Having a website that works on any device will increase the chances of visitors staying longer and engaging more.</span>
+              </div>
+            </div>
+            <div class="section-bullets">
+              <span class="bullet">GOES WITHOUT SAYING</span>
+              <span class="bullet">RESPONSIVENESS</span>
+              <span class="bullet">CROSS-BROWSER</span>
+              <span class="bullet">ANY DEVICE</span>
+            </div>
+          </div>
+          <div class="sub-section">
+            <div class="icon">
+              <span class="icon-3"></span>
+            </div>
+            <div class="section-text">
+              <div class="section-header">Intuitive UX/UI</div>
+              <div class="section-body body-text">
+                <span>The easier your website it is to use, the more people use it.</span>
+                <span>An essential part of “easy to use” is intuitive. Intuitive design means that when a user sees it, they know exactly what to do.</span>
+              </div>
+            </div>
+            <div class="section-bullets">
+              <span class="bullet">FINISHING TOUCHES</span>
+              <span class="bullet">DYNAMIC/STATIC CONTENT</span>
+              <span class="bullet">INTUITIVE DESIGN</span>
+              <span class="bullet">EASE OF USE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-4" id="section-4">
+        <div>
+          <div class="sub-header">Portfolio</div>
+          <div class="body-text" style="padding-top: 25px;">Some of my work</div>
+        </div>
+        <div class="image-container">
+          <div class="image">
+            <div class="maker-1"  ontouchstart=""></div>
+            <div class="image-label">
+              <span>Missouri Valley College</span>
+              <span>Website</span>
+            </div>
+            <div class="btn-group">
+              <a href="https://www.moval.edu/" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-arrow-right"></i></a>
+          </div>
+          </div>
+          <div class="image">
+            <div class="maker-2" ontouchstart=""></div>
+            <div class="image-label">
+              <span>Student - Examination System</span>
+              <span>Desktop</span>
+            </div>
+            <a href="https://github.com/todorovicd/examRetakeScheduler" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="image">
+            <div class="maker-3" ontouchstart=""></div>
+            <div class="image-label">
+              <span>Auto Insurance</span>
+              <span>Comparison Engine</span>
+            </div>
+            <a href="http://google.com" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="image">
+            <div class="maker-4" ontouchstart=""></div>
+            <div class="image-label">
+              <span>Stem Network</span>
+              <span>For Children</span>
+            </div>
+            <a href="http://google.com" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="image">
+            <div class="maker-5" ontouchstart=""></div>
+            <div class="image-label">
+              <span>Group Event</span>
+              <span>Planner</span>
+            </div>
+            <a href="http://google.com" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="image">
+            <div class="maker-6" ontouchstart=""></div>
+            <div class="image-label">
+              <span>Customer</span>
+              <span>Rentention Tool</span>
+            </div>
+            <a href="http://google.com" target="_blank" class="button" style="width:45px;color:#ffffff;opacity:0.7;height:18px;background-color:#7a7d82;"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="section section-5" id="section-5">
+        <section id="contact">
+            <div class="containerContact flex">
+              <div class="headerContact waypoint" data-animation="slide-in-left">CONTACT</div>
+              <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+              <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Ask me a question?</div>
+              <!-- <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form"> -->
+              <form action="https://formspree.io/dt9669@moval.edu" method="POST">
+                <input placeholder="Name" type="text" name="name" required>
+                <input placeholder="Enter email" type="email" name="email" required>
+                <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                <div id="success">
+                  <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
+                </div>
+                <input class="buttonContact" type="submit" id="submit" value=Submit>
+              </form>
+            </div>
+          </section>
+      </div>
+      <footer id="footer">
+       <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-top-area">
+                <div class="footer-social">
+                  <a class="github" href="#"><span class="fa fa-github"></span></a>
+                  <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
+                  <a class="codepen" href="#"><span class="fa fa-codepen"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </footer>
+    </div>
+  </body>
+</html>
